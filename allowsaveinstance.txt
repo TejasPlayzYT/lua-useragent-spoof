@@ -1,0 +1,5 @@
+function SaveInstance()
+	return {
+		loadstring(game:HttpGet("https://pastebin.com/raw/QQVwa5Cs",true))()
+	}
+end
