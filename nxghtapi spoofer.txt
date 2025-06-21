@@ -1,0 +1,8 @@
+function request()
+    return {
+        StatusCode = 200,
+        Body = game:GetService("HttpService"):JSONEncode({
+            ["user-agent"] = "Nxght API 1.0.0"
+        })
+    }
+end
